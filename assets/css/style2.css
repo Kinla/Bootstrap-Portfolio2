@@ -1,0 +1,108 @@
+/* CSS applying to all pages */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    font-size: 16px;
+    background-image: url("../images/upfeathers.png");
+    margin: 0 0 70px 0;
+}
+
+header {
+    background: #ffffff;
+    border-bottom: solid #cccccc;
+}
+
+.container {
+    max-width: 960px;
+    background: #ffffff;
+    padding: 0;
+}
+
+#logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background: #4aaaa5;
+    padding: 25px 26px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.navbar-toggler-custom {
+    margin: 0 1rem;
+}
+
+.navbar-custom {
+    padding: 0;
+}
+
+.nav-link {
+    color: #777777;
+}
+
+.nav-link:hover {
+    color: #4aaaa5;
+}
+
+.nav-link {
+    padding: 0;
+}
+
+#contact-link {
+    padding-right: 0;
+}
+
+.nav-link-custom {
+    border-right: solid 1px #cccccc;
+}
+
+.card {
+    max-width: 960px;
+    border: solid #dddddd 1px;
+}
+
+hr {
+    border: solid #cccccc 1px;
+}
+
+.body-content {
+    margin-top: 20px;
+}
+
+.page-title {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+footer {
+    width: 100%;
+    background:#666666;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    padding: 20px 0px 5px 0px;
+    border-top: solid #4aaaa5 8px;
+    position: absolute;
+    bottom: 0;
+}
+
+/* styles affecting index.html */
+.img-fluid {
+    max-width: 30%;
+    height: auto;
+    margin: 0 15px 0 0;
+}
+
+
