@@ -36,18 +36,26 @@
             </header>
     
         <!--For contact form-->
-        <section class="content clearfix">
-                <h1 class="heading">Contact</h1>
-            <hr><br>
+        <section class="container card body-content">
+            <div class="card-body">
+                <h1 class="card-title page-title">Contact</h1>
+            <hr>
             <!-- no action associated with form. -->
             <form>
-                Name<br>
-                <input type="text" name="name" placeholder="John Smith"><br>
-                Email<br>
-                <input type="email" name="email" placeholder="example@email.com"><br>
-                Message<br>
-                <textarea id="message" name="message" placeholder="..."></textarea><br>
-                <input type="submit" value="Submit">
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Name</label>
+                    <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Jane Doe">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="..."></textarea>
+                </div>
+                <br>
+                <button type="submit" class="btn btn-primary">Submit</button>
             </form>
         </section>
 
