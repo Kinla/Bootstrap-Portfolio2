@@ -4,34 +4,58 @@
         <meta charset="UTF-8">
         <title>Contact Sharon</title>
         <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="assets/css/style2.css">
     </head>
+    
     <body>
          <!--For Header-->
          <header>
-                <section class="header">
-                <h1><span id="logo">Sharon Chien</span></h1>
-                <nav>
-                    <a class="menu" href="index.html">About</a>
-                    <a class="menu" href="portfolio.html">Portfolio</a>
-                    <a class="menu" href="contact.html">Contact</a>
-                </nav>
-                </section>    
+                <div class="container">
+                    <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
+                        <span class="navbar-brand mb-0 h1" id="logo">Sharon Chien</span>
+                    <button class="navbar-toggler navbar-toggler-custom" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                      
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                                <li class="nav-item">
+                                        <a class="nav-link nav-link-custom" href="index.html">About</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link nav-link-custom" href="portfolio.html">Portfolio</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="contact-link" href="contact.html">Contact</a>
+                                    </li>
+                              </ul>
+                        </div>
+                    </nav>
+                </div>
             </header>
-
+    
         <!--For contact form-->
-        <section class="content clearfix">
-                <h1 class="heading">Contact</h1>
-            <hr><br>
+        <section class="container card body-content">
+            <div class="card-body">
+                <h1 class="card-title page-title">Contact</h1>
+            <hr>
             <!-- no action associated with form. -->
             <form>
-                Name<br>
-                <input type="text" name="name" placeholder="John Smith"><br>
-                Email<br>
-                <input type="email" name="email" placeholder="example@email.com"><br>
-                Message<br>
-                <textarea id="message" name="message" placeholder="..."></textarea><br>
-                <input type="submit" value="Submit">
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Name</label>
+                    <input type="name" class="form-control form-control-custom" id="exampleFormControlInput1" placeholder="Jane Doe">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Email address</label>
+                    <input type="email" class="form-control form-control-custom" id="exampleFormControlInput2" placeholder="name@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Message</label>
+                    <textarea class="form-control form-control-custom" id="exampleFormControlTextarea1" rows="3" placeholder="..."></textarea>
+                </div>
+                <br>
+                <button type="submit" class="btn btn-primary">Submit</button>
             </form>
         </section>
 
