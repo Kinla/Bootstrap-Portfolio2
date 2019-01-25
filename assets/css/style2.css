@@ -81,7 +81,7 @@ hr {
     display: table;
 }
 
-footer {
+.card-footer {
     width: 100%;
     background:#666666;
     color: white;

@@ -1,8 +1,26 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 4rem;
+}
+
+.maincard {
+    border: none;
+}
+
+.card-header {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
 .navbar-custom {
     padding: 0;
 }
 
-h1.navbar-brand.logo {
+h1.navbar-brand.logo, h1.navbar-brand.logo:hover {
     font-size: 1.5rem;
     font-weight: bold;
     color: #ffffff;
@@ -15,13 +33,21 @@ h1.navbar-brand.logo {
     margin: 0;
 }
 
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background:#666666;
+    color: white;
+    text-align: center;
+    font-size: 0.75rem;
+    padding: 1.5rem 0px 0.5rem 0px;
+    border-top: solid #4aaaa5 0.5rem;
+}
+
 .title-custom {
     color: #4aaaa5;
     font-size: 1.5rem;
     font-weight: bold;
 }
 
-#pic {
-    max-width: 30%;
-    height: auto;
-}
