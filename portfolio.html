@@ -2,88 +2,93 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Sharon's Portfolio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Portfolio</title>
         <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     </head>
+    
     <body>
-            <div class="card">
-                    <div class="card-header">
-                <nav class="navbar navbar-expand-lg col-10 mx-auto navbar-light bg-light">
-                        <a class="navbar-brand logo" href="index.html">Sharon Chien</a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarNav">
-                            <ul class="navbar-nav ml-auto">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="index.html">About</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="contact.html">Contact</a>
-                                </li>
-                            </ul>
-                        </div>
-                        </nav>            
-                    </div>
+        <wrapper class="d-flex flex-column">
+            <!-- header -->
+            <div class="card py-0 head1">
+                <nav class="navbar navbar-expand-md col-10 mx-auto navbar-custom">
+                <h1 class="navbar-brand logo">Sharon Chien</h1>
+                <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto text-center">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                </nav>            
+            </div>
+            <div class="py-4 main">
+                <div class="card col-10 mx-auto">
                     <div class="card-body">
-                        <div class="card col-10 mx-auto">
-                            <div class="card-body">
-                                <h1 class="card-title title-custom">Portfolio</h1>
-                                <hr>
-                                <div class="card-deck row">
-                                    <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
-                                        <a class="card" href="#" target="_blank">
-                                        <img src="assets/images/hangman.jpg" class="card-img-top" alt="Hangman">
-                                        <div class="card-body">
-                                        <h5 class="card-title">Hangman</h5>
-                                        </div>
-                                        </a>
-                                    </div>
-                                    <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
-                                        <a class="card" href="#" target="_blank">
-                                        <img src="assets/images/RPG.jpg" class="card-img-top" alt="RPG">
-                                        <div class="card-body">
-                                        <h5 class="card-title">RPG</h5>
-                                        </div>
-                                        </a>
-                                    </div>
-                                    <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
-                                        <a class="card" href="#" target="_blank">
-                                            <img src="assets/images/trivia.jpg" class="card-img-top" alt="Trivia Game">
-                                            <div class="card-body">
-                                            <h5 class="card-title">Trivia Game</h5>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
-                                        <a class="card" href="#" target="_blank">
-                                            <img src="assets/images/rutgers.jpg" class="card-img-top" alt="Rutgers">
-                                            <div class="card-body">
-                                            <h5 class="card-title">Rutgers Info Widget</h5>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
-                                        <a class="card" href="#" target="_blank">
-                                            <img src="assets/images/RPS.jpg" class="card-img-top" alt="Rock Paper Scissors">
-                                            <div class="card-body">
-                                            <h5 class="card-title">Rock Paper Scissors</h5>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
+                        <h1 class="card-title title-custom">Portfolio</h1>
+                        <hr>
+                        <div class="card-deck mx-1 row">
+                            <div class="project col-lg-4 col-md-6 col-sm-12 mb-4">
+                                <a class="card mx-0 border-0" href="#" target="_blank">
+                                <img class="img-fluid" src="assets/images/hangman.jpg" alt="Hangman">
+                                <h5 class="carousel-caption port-title">Hangman</h5>
+                                <span class="overlay">Hangman</span>
+                                </a>
+                            </div>
+                            <div class="project col-lg-4 col-md-6 col-sm-12 mb-4">
+                                <a class="card mx-0 border-0" href="#" target="_blank">
+                                <img src="assets/images/RPG.jpg" class="img-fluid" alt="RPG">
+                                <h5 class="carousel-caption port-title">RPG</h5>
+                                <span class="overlay">RPG</span>
+                                </a>
+                            </div>
+                            <div class="project col-lg-4 col-md-6 col-sm-12 mb-4">
+                                <a class="card mx-0 border-0" href="#" target="_blank">
+                                <img src="assets/images/trivia.jpg" class="img-fluid" alt="Trivia Game">
+                                <h5 class="carousel-caption port-title">Trivia Game</h5>
+                                <span class="overlay">Trivia Game</span>
+                                </a>
+                            </div>
+                            <div class="project col-lg-4 col-md-6 col-sm-12 mb-4">
+                                <a class="card mx-0 border-0" href="#" target="_blank">
+                                <img src="assets/images/rutgers.jpg" class="img-fluid" alt="Rutgers">
+                                <h5 class="carousel-caption port-title">Rutgers Info Widget</h5>
+                                <span class="overlay">Rutgers Info Widget</span>
+                                </a>
+                            </div>
+                            <div class="project col-lg-4 col-md-6 col-sm-12 mb-4">
+                                <a class="card mx-0 border-0" href="#" target="_blank">
+                                <img src="assets/images/RPS.jpg" class="img-fluid" alt="Rock Paper Scissors">
+                                <h5 class="carousel-caption port-title">Rock Paper Scissors</h5>
+                                <span class="overlay">Rock Paper Scissors</span>
+                                </a>
                             </div>
                         </div>
-                    </div>
-            <div class="card-footer text-center text-muted">
-                        Copyright &copy;
-                    </div>
-                </div>       
+                   </div>
+                </div>
+            </div>
+        <footer>
+            Copyright &copy;
+        </footer>
+        </wrapper>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>        
+    </body>
+</html>
+
         
 <!-- removing but keeping for reference
     <wrapper class="d-fex flex-column">
@@ -173,8 +178,3 @@
     </wrapper>
 -->
     
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>        
-    </body>
-</html>

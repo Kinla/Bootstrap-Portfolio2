@@ -62,6 +62,52 @@ footer {
     border-top: solid #4aaaa5 0.5rem;
 }
 
+/* styles affecting portfolio.html */
+.project {
+    position: relative;
+}
+
+.port {
+    border-radius: 25px;
+    border: #ffffff;
+}
+
+.port-title {
+    color: #ffffff;
+    background: #4aaaa5;
+    font-size: 1rem;
+    margin: 0;
+    width: 100%;
+    left: 0;
+    
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #4aaaa5;
+    color: #ffffff;
+    background: #4aaaa5;
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    opacity: 0;
+}
+
+.project:hover .overlay {
+    opacity: .9;
+}
+
+.project:hover .port-title {
+    opacity:0;
+}
+
 /* styles affecting contact.hmtl */
 
 input[type=text], input[type=email], textarea {
