@@ -1,3 +1,12 @@
+html, body {
+    height: 100%;
+}
+
+wrapper {
+    min-height: 100%;
+    align-items: stretch;
+}
+
 .navbar-custom {
     padding: 0;
 }
@@ -15,13 +24,22 @@ h1.navbar-brand.logo {
     margin: 0;
 }
 
+.main {
+    flex-grow: 1;    
+}
+
 .title-custom {
     color: #4aaaa5;
     font-size: 1.5rem;
     font-weight: bold;
 }
 
-#pic {
-    max-width: 30%;
-    height: auto;
+footer {
+    width: 100%;
+    background:#666666;
+    color: white;
+    text-align: center;
+    font-size: 0.75rem;
+    padding: 1.5rem 0 0.5rem 0;
+    border-top: solid #4aaaa5 0.5rem;
 }
