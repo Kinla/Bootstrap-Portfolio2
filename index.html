@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title>All about Sharon!</title> 
         <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
@@ -9,15 +10,16 @@
     </head>
     
     <body>
-        <div class="card">
-            <div class="card-header">
-                <nav class="navbar navbar-expand-lg col-10 mx-auto navbar-light bg-light navbar-custom">
+        <wrapper class="d-flex flex-column">
+            <!-- header -->
+            <div class="card py-0 bg-light">
+                <nav class="navbar navbar-expand-md col-10 mx-auto navbar-light bg-light navbar-custom">
                 <h1 class="navbar-brand logo">Sharon Chien</h1>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ml-auto">
+                    <ul class="navbar-nav ml-auto text-center">
                         <li class="nav-item">
                             <a class="nav-link" href="index.html">About</a>
                         </li>
@@ -31,22 +33,22 @@
                 </div>
                 </nav>            
             </div>
-            <div class="card-body">
+            <div class="my-4 main">
                 <div class="card col-10 mx-auto">
-                    <div class="card-body">
-                        <h1 class="card-title title-custom">About Me</h1>
-                        <hr>
-                        <img class="img-fluid float-left mr-3" src="assets/images/smiles.jpg" id="pic" alt="Sharon">
-                        <p class="card-text">Hi there! You have found Sharon. She has been waiting for you to discover her brand new super power, CODING.</p>
-                        <p class="card-text">Sharon has been (and still is) many things in life - rebelious daughter, life long student, cat-owner, loving wife, newbie pharma intern, loving financial consultant, mom then mom of two, awsome coder who will save the world. She is fueled by her passion of life (*cough* most would say her passion of food) and her curiosity of the human psyche. She keep myself busy, entertained, constantly pushing forward to learn new things and try out new experiences.</p>
-                        <p class="card-text">She has created some cool and neat things for you to checkout on here. She is always looking to test our her new coding power. Feel free to give her a shout!</p>
-                    </div>
+                <div class="card-body">
+                    <h1 class="card-title title-custom">About Me</h1>
+                    <hr>
+                    <img class=" float-left col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 mb-3 mr-3 px-3" src="assets/images/smiles.jpg" id="pic" alt="Sharon">
+                    <p class="card-text pr-3">Hi there! You have found Sharon. She has been waiting for you to discover her brand new super power, CODING.</p>
+                    <p class="card-text pr-3">Sharon has been (and still is) many things in life - rebelious daughter, life long student, cat-owner, loving wife, newbie pharma intern, loving financial consultant, mom then mom of two, awsome coder who will save the world. She is fueled by her passion of life (*cough* most would say her passion of food) and her curiosity of the human psyche. She keep myself busy, entertained, constantly pushing forward to learn new things and try out new experiences.</p>
+                    <p class="card-text pr-3">She has created some cool and neat things for you to checkout on here. She is always looking to test our her new coding power. Feel free to give her a shout!</p>
+                </div>
                 </div>
             </div>
-            <div class="card-footer text-center text-muted">
+            <footer>
                 Copyright &copy;
-            </div>
-        </div>       
+            </footer>
+        </wrapper>       
 <!-- Cancelling out old work starting from scratch
     <wrapper class="d-fex flex-column">
         <header>
