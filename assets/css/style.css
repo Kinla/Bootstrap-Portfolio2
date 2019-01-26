@@ -11,6 +11,8 @@ wrapper {
     border-top: none;
     border-left: none;
     border-right: none;
+    border-bottom: solid 2px #cccccc;
+    border-radius: 0;
 }
 
 .navbar-custom {
@@ -30,9 +32,18 @@ h1.navbar-brand.logo, h1.navbar-brand.logo:hover {
     margin: 0;
 }
 
+.nav-link {
+    color: #777777;
+}
+
+.nav-link:hover {
+    color: #4aaaa5;
+}
+
 .main {
     flex-grow: 1;
-    border: none;    
+    border: none;
+    background-image: url(../images/upfeathers.png);    
 }
 
 .title-custom {
@@ -49,4 +60,33 @@ footer {
     font-size: 0.75rem;
     padding: 1.5rem 0 0.5rem 0;
     border-top: solid #4aaaa5 0.5rem;
+}
+
+/* styles affecting contact.hmtl */
+
+input[type=text], input[type=email], textarea {
+    color: #666666;
+}
+
+input::placeholder, textarea::placeholder {
+    color: #ebe5d9;
+}
+
+.form-control:focus {
+    border-color: #4aaaa5 !important;
+    box-shadow: 0 0 5px #4aaaa5 !important;
+  }
+
+button[type=submit] {
+    color: #4aaaa5;
+    background: #ffffff;
+    border: solid #4aaaa5;
+    font-weight: bold;
+}
+
+button[type=submit]:hover {
+    color: white;
+    background: #4aaaa5;
+    border: solid #4aaaa5;
+    font-weight: bold;
 }

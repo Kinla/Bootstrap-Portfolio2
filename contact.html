@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title>Contact Sharon</title>
         <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
@@ -10,15 +10,16 @@
     </head>
     
     <body>
-        <div class="card">
-            <div class="card-header">
-                <nav class="navbar navbar-expand-lg col-10 mx-auto navbar-light bg-light">
-                <a class="navbar-brand logo" href="index.html">Sharon Chien</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <wrapper class="d-flex flex-column">
+            <!-- header -->
+            <div class="card py-0 head1">
+                <nav class="navbar navbar-expand-md col-10 mx-auto navbar-custom">
+                <h1 class="navbar-brand logo">Sharon Chien</h1>
+                <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ml-auto">
+                    <ul class="navbar-nav ml-auto text-center">
                         <li class="nav-item">
                             <a class="nav-link" href="index.html">About</a>
                         </li>
@@ -32,7 +33,7 @@
                 </div>
                 </nav>            
             </div>
-            <div class="card-body">
+            <div class="py-4 main">
                 <div class="card col-10 mx-auto">
                     <div class="card-body">
                         <h1 class="card-title title-custom">About Me</h1>
@@ -56,11 +57,10 @@
                     </div>
                 </div>
             </div>
-            <div class="card-footer text-center text-muted">
-                Copyright &copy;
-            </div>
-        </div>       
-
+        <footer>
+            Copyright &copy;
+        </footer>
+        </wrapper>
 <!-- removing old code but keeping for referencing
     <wrapper class="d-fex flex-column">
          <header>
