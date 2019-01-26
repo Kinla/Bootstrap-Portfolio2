@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 html, body {
     height: 100%;
 }
@@ -5,13 +6,31 @@ html, body {
 wrapper {
     min-height: 100%;
     align-items: stretch;
+=======
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 4rem;
+}
+
+.maincard {
+    border: none;
+}
+
+.card-header {
+    padding-top: 0;
+    padding-bottom: 0;
+>>>>>>> af6188910e33c9367824effbf8acf8764cd8b3ce
 }
 
 .navbar-custom {
     padding: 0;
 }
 
-h1.navbar-brand.logo {
+h1.navbar-brand.logo, h1.navbar-brand.logo:hover {
     font-size: 1.5rem;
     font-weight: bold;
     color: #ffffff;
@@ -24,8 +43,21 @@ h1.navbar-brand.logo {
     margin: 0;
 }
 
+<<<<<<< HEAD
 .main {
     flex-grow: 1;    
+=======
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background:#666666;
+    color: white;
+    text-align: center;
+    font-size: 0.75rem;
+    padding: 1.5rem 0px 0.5rem 0px;
+    border-top: solid #4aaaa5 0.5rem;
+>>>>>>> af6188910e33c9367824effbf8acf8764cd8b3ce
 }
 
 .title-custom {
@@ -34,6 +66,7 @@ h1.navbar-brand.logo {
     font-weight: bold;
 }
 
+<<<<<<< HEAD
 footer {
     width: 100%;
     background:#666666;
@@ -43,3 +76,5 @@ footer {
     padding: 1.5rem 0 0.5rem 0;
     border-top: solid #4aaaa5 0.5rem;
 }
+=======
+>>>>>>> af6188910e33c9367824effbf8acf8764cd8b3ce
